@@ -7,7 +7,10 @@ p{
 
 
 a {
-  color: rgb(0, 255, 0);
+  color: green;
+}
+a:hover {
+  color: blue;
 }
 li{
   color: rgb(0, 255, 0)
