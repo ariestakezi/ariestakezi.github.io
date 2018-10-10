@@ -1,11 +1,11 @@
 
   body {
-background: url("http://2.bp.blogspot.com/-9ztOsJHOqIc/ToKj0Oj34SI/AAAAAAAAA1w/t1cB-soBrAY/s000/background.jpg") repeat scroll 0 0 transparent;
-color: #000000;
-font: normal normal 100% Georgia, Serif;
-margin: 0;
-padding-top: 0;
-text-align: center;
+    background: url("http://2.bp.blogspot.com/-9ztOsJHOqIc/ToKj0Oj34SI/AAAAAAAAA1w/t1cB-soBrAY/s000/background.jpg") repeat scroll 0 0 transparent;
+    color: #000000;
+    font: normal normal 100% Georgia, Serif;
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
 }
 p{
   color: rgb(255, 0, 255)
@@ -13,10 +13,10 @@ p{
 
 
 a {
-  color: green;
+  color: black;
 }
 a:hover {
-  color: blue;
+  color: pink gloss;
 }
 li{
   color: rgb(0, 255, 0)
