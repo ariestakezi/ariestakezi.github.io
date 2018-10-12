@@ -1,4 +1,5 @@
-
+ @IMPORT
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   body {
     background: url("http://2.bp.blogspot.com/-9ztOsJHOqIc/ToKj0Oj34SI/AAAAAAAAA1w/t1cB-soBrAY/s000/background.jpg") repeat scroll 0 0 transparent;
     color: #000000;
@@ -7,6 +8,12 @@
     padding-top: 0;
     text-align: center;
 }
+h1{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
 p{
   color: black;
 }
