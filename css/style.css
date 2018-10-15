@@ -37,10 +37,16 @@ div {
 }
 .kotak1 {
 	background-color: pink;
+	width: 200px;
+	height: 100px;
 }
 .kotak2 {
 	background-color: pastel;
+	width: 200px;
+	height: 100px;
 }
 .kotak3 {
 	background-color: yellow;
+	width: 200px;
+	height: 100px
 }
