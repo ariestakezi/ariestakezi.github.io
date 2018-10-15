@@ -32,3 +32,6 @@ input {
 		font-size: 2vw;
 		padding: 2vw;
 }
+div {
+	background-color: rgb(255, 0, 0)
+}
