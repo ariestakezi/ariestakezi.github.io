@@ -1,4 +1,4 @@
- @IMPORT
+@IMPORT
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   body {
 	  color: #000000;
@@ -32,9 +32,7 @@ input {
 		font-size: 2vw;
 		padding: 2vw;
 }
-div {
-	background-color: pink;
-}
+
 .kotak1 {
 	background-color: pink;
 	width: 200px;
