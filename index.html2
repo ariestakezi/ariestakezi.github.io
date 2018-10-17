@@ -1,1 +1,55 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ariesta About</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- This is a header -->  
+        <div class="header">
+            <a href="index.html">Home</a>
+            <a href="about.html" title="This Is About Page">About Us</a>
+            <a href="gallery.html" title="This Is Gallery Page">Gallery</a>
+            <a href="contact.html" title="This Is Contact Page">Contact Us</a
+        </div>
+        <!-- This is a main -->  
+        <div class="main">
+        <!--This is an example of bloquote -->
+        <blockquote>
+                    “A HOME IS MORE 
+                    THAN JUST WALLS AND PAINT.
+                    AND OUR BROKEN HOMES ARE MORE THAN JUST 
+                    THE FAMILY THAT RAISED US, 
+                    AND THE HOUSE WE CALLED OUR OWN.”
+                    <br>
+                    – ADAM AUSTYN
+        </blockquote>
+        </div>
+        <div>
+          <h1>My Best Friend</h1>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rFx1_4Mc5bY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!-- This is a footer -->  
+        <div class="footer">
+        <div class="content">
+            <h2>Berita hangat tentang broken home<h2>
+            <br>
+            <img src="https://cdn.sindonews.net/dyn/620/content/2015/01/14/31/950567/siswa-smp-gantung-diri-itu-anak-broken-home-vHM.jpg" alt="Ini SMP gantung diri" width="300" height="250">
+            <p>Siswa SMP gantung diri itu ....</p>
+            <br>
+            <img src="http://online24jam.com/wp-content/uploads/2017/04/IMG-20170424-WA0046_censored.jpg" width="300" height="250" alt="Remaja broken jadi penyalahgunaan narkoba">
+            <p>Akibat broken home remaja jadi korban....</p>
+            <img src="https://s3-ap-southeast-1.amazonaws.com/jawapos/thumbnails/670_446_anak-broken-home-jadi-sasaran-empuk-teroris-ini-sebabnya_m_154060.jpeg" alt="Sasaran teroris " width="300" height="250">
+            <p>Anak broken home jadi sasaran ...</p>
+        </div>
+        <div class="sidebar">
+        <div>
+         <a href="https://www.viva.co.id/gaya-hidup/parenting/982873-anak-broken-home-rentan-terjangkit-hiv" title="Anak Broken Home Rentan Terjangkit Hiv" class="cmsmasters_img_link preloader">
+         <img width="300" height="250" src="https://static.viva.co.id/thumbs3/2016/12/05/58452a873118a-ilustrasi-remaja_665_374.jpg" class="full-width wp-post-image" alt="Anak Broken Home Rentan Terjangkit Hiv" title="Anak Broken Home Rentan Terjangkit  HIV" />
+         </a>
+         <p>Deddy Corbuzier: Broken home is not broken kids!</p> 
+         <img src="https://img-z.okeinfo.net/content/2018/06/07/33/1907838/deddy-corbuzier-broken-home-is-not-broken-kids-t1FKXR40hA.jpg" width="300" height="250">           
+       </div>
+    </body>
+</html>
+        
