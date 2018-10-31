@@ -92,69 +92,80 @@ center{
 	background-color: chocolate;
         font-size: x-large;
 }
-.container { /* posisikan letak slidernya */
- margin:10% auto;
- position: relative;
- overflow: hidden;
-}
-.container, ul.slide li img{
- width:500px; /* Sesuaikan sendiri */
- height: 300px;  /* Sesuaikan sendiri */
+#slider {
+  width: 950px;
+  height: 500px;
+  overflow: hidden;
+  border: 1px solid #c69;
 }
 
-
-ul.slide {
- position: absolute;
- display: block;
- width:300%;  /* <-- Angka 3 Bergantung pada jumlah slide */
+.slide {
+  width: 500px;
+  height: 500px;
+  float: left;
+  position: relative;
 }
 
-.caption { /* styling untuk deskripsi setiap slide */
- position: absolute;
- background-color: rgba(0,0,0,0.5);
- bottom:0;
- padding:10px;
- color:#fff;
- left: 0;
- right: 0;
+#slide-holder {
+  width: 400%;
+  position: relative;
+  left: 0;
+  -webkit-animation: scroller 10s infinite;
+          animation: scroller 10s infinite;
 }
 
-/* Yang membuatnya jadi slider */
- ul.slide li {
-    display: inline-block;
-    float: left;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    ox-sizing:border-box;
-    -webkit-transition: -webkit-transform 2000ms;
-    -moz-transition: -moz-transform 2000ms;
-    transition: -webkit-transform 2000ms, transform 2000ms;
- }
- ul.slide li.slide-1 {
-  left: 0%;
- }
- ul.slide li.slide-2 {
-  left: 100%;
- }
- ul.slide li.slide-3 {
-  left: 200%;
- }
- #nav-1:checked ~ ul.slide li{
-    -webkit-transform: translateX(0%);
-  -moz-transform: translateX(0%);
-    transform: translateX(0%);
- }
- #nav-2:checked ~ ul.slide li{
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-   transform: translateX(-100%);
- }
- #nav-3:checked ~ ul.slide li {
-    -webkit-transform: translateX(-200%);
-    -moz-transform: translateX(-200%);
-    transform: translateX(-200%);
- }
-/* End, yang membuatnya jadi slider */
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
 
+@keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+body {
+  font-family: sans-serif;
+}
 
+#slider {
+  margin: 0 auto;
+}
 
+.slide:nth-child(1) {
+  background: #c69;
+}
+.slide:nth-child(2) {
+  background: wheat;
+}
+
+.slide:nth-child(3) {
+  background: #eee;
+}
