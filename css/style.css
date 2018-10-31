@@ -1,10 +1,9 @@
 @IMPORT
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 body {
-	  font-size:4em;
-	  color: #000000;
+	  
 	  background-color: bisque;
-	  background-size: cover;	  
+	  	  
 }
 h1 {
   color: black;
