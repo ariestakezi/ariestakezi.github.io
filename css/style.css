@@ -1,7 +1,7 @@
 @IMPORT
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 body {
-	  font-size:1em;
+	  font-size:4em;
 	  color: #000000;
 	  background-image:https://static2.bigstockphoto.com/0/4/4/large1500/44041591.jpg ;
 	  background-size: cover;	  
@@ -50,7 +50,7 @@ input {
 	height: 200px;
 }
 .header {
-	font-size:xx-large;
+	
 	background-color: rgb(210, 105, 0);
 	width: 100%;
 	height: 50px;
