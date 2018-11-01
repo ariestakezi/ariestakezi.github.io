@@ -1,95 +1,94 @@
-@IMPORT
-<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=VT323');
 body {
-	background-color: #FF7F50;  
-	font-family: sans-serif;
-}
-h1 {
-  color: black;
-  font-size: inherit;
-  font-family: 'Roboto Mono', monospace;
-}
-h2{
-	color: black;
-	font-size: 1em;
+  background-color: #396070;
 }
 
 p {
-  background-color: bique;
-  color: black;
+  color: #bbdbbe;
 }
-
-
 a {
-  color: black;
+  color: #C46474;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  
 }
 a:hover {
-  color: blue;
+  color: #B196CC;
 }
-li{
-  background-color: bisque;
-  font-size: 1em;
-  color: black;
+li {
+  color: #D870C0;
 }
-input {
-		caret-color: blue;
-		color: white;
-		background: pastel;
-		font-size: 2vw;
-		padding: 2vw;
+h1 {
+  color: #E074AC;
+ font-family: 'Cabin Sketch', cursive;
+}
+h2 {
+  color: #3cB371;
+  font-family: 'Amatic SC',cursive;
+}
+h3 {
+  color: #b9d000;
+  font-family: 'Amatic SC',cursive;
+  font-size: 50px;
+}
+h5 {
+  color: #ffdbbe;
+}
+.box1 {
+  background-color: blue;
+  width: 350px;
+  height: 400px;
 }
 
-.kotak1 {
-	background-color: pink;
-	width: 200px;
-	height: 200px;
+.box2 {
+  background-color: pink;
+  width: 50%;
+  height: 60%;
 }
-.kotak2 {
-	background-color: orange;
-	width: 200px;
-	height: 200px;
+
+.fenty {
+  float: left;
+  width: 50%;
 }
-.kotak3 {
-	background-color: yellow;
-	width: 100%;
-	height: 200px;
+
+.riri {
+  float: right;
+  width: 50%;
 }
-.header {
-	 padding-top: 0px;
-         padding-right: 0px;
-         padding-bottom: 0px;
-         padding-left: 0px;
-         text-align: center;
-         font-size: 50px;
-	
+.parent{
+  background-color: #c0d3b5;
+  width: 100%;
+  height: 500px;
 }
-.main {
-    font-weight: 500;
-    font-style: inherit;
-    
-    width: 100%;
-    height: 200px;
-	
+.make {
+  background-color: #c0debe;
+  float: left;
+  width: 50%;
 }
-.content {
-	background-image:https://static2.bigstockphoto.com/0/4/4/large1500/44041591.jpg ;
-	background-color:rgb(255, 0, 255);
-	width: 70%;
-	height: 100px;
-	float: left;
+
+.up {
+  background-color: #c0debe;
+  float: right;
+  width: 50%;
 }
-.sidebar {
-	background-image:https://static2.bigstockphoto.com/0/4/4/large1500/44041591.jpg ;
-	background-color:rgb(255, 0, 255)
-	width: 30%;
-	height: 100px;
-	float: right;
+h4{
+  height: 50px;
+  padding-top: inherit;
+  position: relative;
+  text-align: center;
+  color:  white;
+  font-size: 50px;
+  font-family: fantasy;
 }
-.footer {
-	background-image:https://static2.bigstockphoto.com/0/4/4/large1500/44041591.jpg ;
-	background-color: rgb(0, 0, 255)
-	width: 200px;
-	height: 100px;
-	
+.header{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 50px;
 }
+
 
