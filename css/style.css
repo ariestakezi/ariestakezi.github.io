@@ -29,6 +29,7 @@ a:hover {
 }
 li{
   background-color: bisque;
+  font-size: 1em;
   color: black;
 }
 input {
