@@ -1,11 +1,11 @@
 @IMPORT
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 body {
-	  background: url("https://images1.pixlis.com/background-image-circles-bubbles-sponge-soap-seamless-tileable-roti-splash-2387f7.png") no-repeat fixed;
 	  -webkit-background-size: 100% 100%;
          -moz-background-size: 100% 100%;
          -o-background-size: 100% 100%;
          background-size: 100% 100%;
+	background-color: chocolate;
 
 	  
 }
