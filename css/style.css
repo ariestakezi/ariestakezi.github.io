@@ -28,7 +28,8 @@ a:hover {
   color: blue;
 }
 li{
-  color:black;
+  background-color: bisque;
+  color: black;
 }
 input {
 		caret-color: blue;
