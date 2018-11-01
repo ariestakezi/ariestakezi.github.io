@@ -1,1 +1,160 @@
+@IMPORT
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  body {
+    	  background: url("https://images1.pixlis.com/background-image-circles-bubbles-sponge-soap-seamless-tileable-roti-splash-2387f7.png") no-repeat fixed;
 
+    	  -webkit-background-size: 100% 100%;
+         -moz-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+         background-size: 100% 100%;
+
+}
+h1{
+   color: black;
+   font-size: 20px;
+   font-family: 'Roboto Mono', monospace;
+}
+p{
+  color: black;
+  
+}
+a{
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+li{
+  color: rgb(0, 255, 0)
+}
+
+input {
+		caret-color: blue;
+		color: white;
+		background: pastel;
+		font-size: 2vw;
+		padding: 2vw;
+}
+
+}
+.header {
+	
+    font-size: xx-large;
+    background-color: chocolate;
+    width: 100%;
+    height: 50px;
+	
+}
+.main {
+    font-weight: 500;
+    font-style: inherit;
+    background-color: rgb(210, 105, 30);
+    width: 100%;
+    height: 200px;
+	
+}
+.content {
+	background-image:https://static2.bigstockphoto.com/0/4/4/large1500/44041591.jpg ;
+	background-color:rgb(255, 0, 255);
+	width: 70%;
+	height: 100px;
+	float: left;
+}
+.sidebar {
+	background-image:https://static2.bigstockphoto.com/0/4/4/large1500/44041591.jpg ;
+	background-color:rgb(255, 0, 255)
+	width: 30%;
+	height: 100px;
+	float: right;
+}
+.footer {
+	background-image:https://static2.bigstockphoto.com/0/4/4/large1500/44041591.jpg ;
+	background-color: rgb(0, 0, 255)
+	width: 200px;
+	height: 100px;
+	
+}
+.berita {
+	background-color: pink;
+}
+center{
+	background-color: chocolate;
+        font-size: x-large;
+}
+#slider {
+  width: 950px;
+  height: 500px;
+  overflow: hidden;
+  border: 1px solid #c69;
+}
+
+.slide {
+  width: 500px;
+  height: 500px;
+  float: left;
+  position: relative;
+}
+
+#slide-holder {
+  width: 400%;
+  position: relative;
+  left: 0;
+  -webkit-animation: scroller 10s infinite;
+          animation: scroller 10s infinite;
+}
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+body {
+  font-family: sans-serif;
+}
+
+#slider {
+  margin: 0 auto;
+}
+
+.slide:nth-child(1) {
+  background: #c69;
+}
+.slide:nth-child(2) {
+  background: wheat;
+}
+
+.slide:nth-child(3) {
+  background: #eee;
+}
