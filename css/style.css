@@ -52,7 +52,7 @@ h5 {
 
 .parent{
   background-color: #FFE4C4;
-  width: 100%;
+  
   height: 500px;
   width: -webkit-fill-available;
 }
