@@ -48,27 +48,19 @@ h5 {
   height: 60%;
 }
 
-.fenty {
-  float: left;
-  width: 50%;
-}
 
-.riri {
-  float: right;
-  width: 50%;
-}
 .parent{
   background-color: #FFE4C4;
   width: 100%;
   height: 500px;
 }
-.make {
+.roti {
   background-color: #c0debe;
   float: left;
   width: 50%;
 }
 
-.up {
+.ku {
   background-color: #c0debe;
   float: right;
   width: 50%;
